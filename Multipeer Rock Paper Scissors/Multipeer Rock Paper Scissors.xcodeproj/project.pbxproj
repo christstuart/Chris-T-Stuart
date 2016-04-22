@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8324F5F91C1607C60044384C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324F5F81C1607C60044384C /* AppDelegate.swift */; };
+		8324F5FB1C1607C60044384C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324F5FA1C1607C60044384C /* ViewController.swift */; };
+		8324F5FE1C1607C60044384C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8324F5FC1C1607C60044384C /* Main.storyboard */; };
+		8324F6001C1607C60044384C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8324F5FF1C1607C60044384C /* Assets.xcassets */; };
+		8324F6031C1607C60044384C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8324F6011C1607C60044384C /* LaunchScreen.storyboard */; };
+		8324F60B1C16095E0044384C /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324F60A1C16095E0044384C /* playViewController.swift */; };
+		8324F60D1C160E890044384C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8324F60C1C160E890044384C /* MultipeerConnectivity.framework */; };
+		8324F6121C16101D0044384C /* SwiftyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324F6101C16101D0044384C /* SwiftyButton.swift */; };
+		8324F6131C16101D0044384C /* SwiftyButton+ResizableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324F6111C16101D0044384C /* SwiftyButton+ResizableImage.swift */; };
+		832C85511C1757AE00E168E5 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C85501C1757AE00E168E5 /* SweetAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8324F5F51C1607C60044384C /* Multipeer Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multipeer Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8324F5F81C1607C60044384C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8324F5FA1C1607C60044384C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8324F5FD1C1607C60044384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8324F5FF1C1607C60044384C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8324F6021C1607C60044384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8324F6041C1607C60044384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8324F60A1C16095E0044384C /* playViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
+		8324F60C1C160E890044384C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		8324F60F1C16101D0044384C /* SwiftyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyButton.h; sourceTree = "<group>"; };
+		8324F6101C16101D0044384C /* SwiftyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyButton.swift; sourceTree = "<group>"; };
+		8324F6111C16101D0044384C /* SwiftyButton+ResizableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyButton+ResizableImage.swift"; sourceTree = "<group>"; };
+		832C85501C1757AE00E168E5 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8324F5F21C1607C60044384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8324F60D1C160E890044384C /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8324F5EC1C1607C60044384C = {
+			isa = PBXGroup;
+			children = (
+				8324F60E1C160E8C0044384C /* Frameworks */,
+				8324F5F71C1607C60044384C /* Multipeer Rock Paper Scissors */,
+				8324F5F61C1607C60044384C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8324F5F61C1607C60044384C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8324F5F51C1607C60044384C /* Multipeer Rock Paper Scissors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8324F5F71C1607C60044384C /* Multipeer Rock Paper Scissors */ = {
+			isa = PBXGroup;
+			children = (
+				8324F6141C1610210044384C /* Custom */,
+				8324F5F81C1607C60044384C /* AppDelegate.swift */,
+				8324F5FA1C1607C60044384C /* ViewController.swift */,
+				8324F60A1C16095E0044384C /* playViewController.swift */,
+				8324F5FC1C1607C60044384C /* Main.storyboard */,
+				8324F5FF1C1607C60044384C /* Assets.xcassets */,
+				8324F6011C1607C60044384C /* LaunchScreen.storyboard */,
+				8324F6041C1607C60044384C /* Info.plist */,
+			);
+			path = "Multipeer Rock Paper Scissors";
+			sourceTree = "<group>";
+		};
+		8324F60E1C160E8C0044384C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8324F60C1C160E890044384C /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8324F6141C1610210044384C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				832C85501C1757AE00E168E5 /* SweetAlert.swift */,
+				8324F60F1C16101D0044384C /* SwiftyButton.h */,
+				8324F6101C16101D0044384C /* SwiftyButton.swift */,
+				8324F6111C16101D0044384C /* SwiftyButton+ResizableImage.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8324F5F41C1607C60044384C /* Multipeer Rock Paper Scissors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8324F6071C1607C60044384C /* Build configuration list for PBXNativeTarget "Multipeer Rock Paper Scissors" */;
+			buildPhases = (
+				8324F5F11C1607C60044384C /* Sources */,
+				8324F5F21C1607C60044384C /* Frameworks */,
+				8324F5F31C1607C60044384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multipeer Rock Paper Scissors";
+			productName = "Multipeer Rock Paper Scissors";
+			productReference = 8324F5F51C1607C60044384C /* Multipeer Rock Paper Scissors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8324F5ED1C1607C60044384C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chris T Stuart";
+				TargetAttributes = {
+					8324F5F41C1607C60044384C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = YLHJNR6UHL;
+					};
+				};
+			};
+			buildConfigurationList = 8324F5F01C1607C60044384C /* Build configuration list for PBXProject "Multipeer Rock Paper Scissors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8324F5EC1C1607C60044384C;
+			productRefGroup = 8324F5F61C1607C60044384C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8324F5F41C1607C60044384C /* Multipeer Rock Paper Scissors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8324F5F31C1607C60044384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8324F6031C1607C60044384C /* LaunchScreen.storyboard in Resources */,
+				8324F6001C1607C60044384C /* Assets.xcassets in Resources */,
+				8324F5FE1C1607C60044384C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8324F5F11C1607C60044384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8324F60B1C16095E0044384C /* playViewController.swift in Sources */,
+				8324F5FB1C1607C60044384C /* ViewController.swift in Sources */,
+				8324F5F91C1607C60044384C /* AppDelegate.swift in Sources */,
+				8324F6121C16101D0044384C /* SwiftyButton.swift in Sources */,
+				8324F6131C16101D0044384C /* SwiftyButton+ResizableImage.swift in Sources */,
+				832C85511C1757AE00E168E5 /* SweetAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8324F5FC1C1607C60044384C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8324F5FD1C1607C60044384C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8324F6011C1607C60044384C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8324F6021C1607C60044384C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8324F6051C1607C60044384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8324F6061C1607C60044384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8324F6081C1607C60044384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Multipeer Rock Paper Scissors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Multipeer-Rock-Paper-Scissors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8324F6091C1607C60044384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Multipeer Rock Paper Scissors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Multipeer-Rock-Paper-Scissors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8324F5F01C1607C60044384C /* Build configuration list for PBXProject "Multipeer Rock Paper Scissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8324F6051C1607C60044384C /* Debug */,
+				8324F6061C1607C60044384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8324F6071C1607C60044384C /* Build configuration list for PBXNativeTarget "Multipeer Rock Paper Scissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8324F6081C1607C60044384C /* Debug */,
+				8324F6091C1607C60044384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8324F5ED1C1607C60044384C /* Project object */;
+}
